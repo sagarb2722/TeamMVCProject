@@ -10,10 +10,10 @@ public class UserDto {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	int id;
-	String name;
-	String email;
-	String password;
+	 private  int id;
+	private String name;
+	private String email;
+	private String password;
 	public int getId() {
 		return id;
 	}
